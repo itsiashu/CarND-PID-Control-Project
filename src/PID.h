@@ -31,21 +31,6 @@ class PID {
    */
   double TotalError();
 
-  /**
-   * Get max error.
-   */
-  double MaxError();
-  
-  /**
-   * Get min error.
-   */
-  double MinError();
-  
-  /**
-   * Get avg error.
-   */
-  double AverageError();
-
   
  private:
   /**
@@ -60,14 +45,6 @@ class PID {
   double Kp;
   double Ki;
   double Kd;
-  /**
-   * PID Error counters
-   */
-  double previous_cte;
-  int error_count;
-  double sum_error;
-  double min_error;
-  double max_error;
 };
 
 #endif  // PID_H

@@ -35,9 +35,9 @@ int main() {
 
   PID pid;
   /**
-   * This isto initialize the pid variable.
+   * This is to initialize the pid variable.
    * can be experimented with different values
-   * below seems a final good value for submission
+   * below seems a good working set!
    */
   pid.Init(0.1, 0.002, 2.5);
   
